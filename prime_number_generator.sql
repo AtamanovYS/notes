@@ -1,3 +1,5 @@
+-- 10^7 простых чисел генерируется за ~ 5 минут
+
 IF OBJECT_ID('tempdb..#numbers') IS NOT NULL
 	DROP TABLE #numbers
 ;
